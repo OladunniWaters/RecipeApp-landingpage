@@ -26,16 +26,19 @@ const Hero = () => {
      </div>    
       
 
-      <div className='down_image' >
+   {/*
+
+   <div className='down_image' >
             <img src={require("../assets/Ellipse 23.png")} alt="unsplash"/>
         </div>
 
+     <div className='hero_second_cont'>
         <div className='process'>
           <h2>How it works</h2>
         </div>
 
-        <div className='how_it_works_cont'>
-           <div>
+        <div className='row'>
+           <div className='col'>
               <div className='num'>1</div>
               <p className='step_header'>Download</p>
               <p className='step_paragraph'>Download expo go app</p>
@@ -45,7 +48,7 @@ const Hero = () => {
              <img src={require("../assets/Vector 42.png")} alt="unsplash"/>
            </span>
 
-           <div>
+           <div className='col'>
               <div className='num'>2</div>
               <p className='step_header'>Click on the button</p>
               <p className='step_paragraph'>Click on the get started button to take you to the expo link for you to use anytime</p>
@@ -55,12 +58,16 @@ const Hero = () => {
              <img src={require("../assets/Vector 42.png")} alt="unsplash"/>
            </span>
 
-           <div>
+           <div className='col'>
               <div className='num'>3</div>
               <p className='step_header'>Success</p>
               <p className='step_paragraph'>You can use recipe app in peace and all its functionalities</p>
            </div>
         </div>
+   </div>  
+
+  */}
+      
   </div>
   )
 }
